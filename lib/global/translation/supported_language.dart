@@ -1,0 +1,1 @@
+enum SupportedLanguageEasyLocalization { en, nl }

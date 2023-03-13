@@ -1,0 +1,39 @@
+{
+  "test_one": "tesyy",
+  "intro_page": {
+    "login": "Einloggen",
+    "getting_started": "Loslegen",
+    "search_for_comapnies": "Unternehmen suchen...",
+    "app_description": "Wissen mit wem Sie Geschäfte machen",
+    "sofort_name": "SOFORT",
+    "register_commercial": "HANDELSREGISTER"
+  },
+  "login_page": {
+    "login_hint": "LOGIN",
+    "email": "E-mail",
+    "enter_email": "Bitte E-Mail eingeben",
+    "invalid_password": "ungültige passwort",
+    "invalid_email": "ungültige E-Mail-Adresse",
+    "password": "Passwort ",
+    "forget_password": "Passwort vergessen?",
+    "without_account_yet": "Noch kein Kundenkonto?",
+    "join_now": "Jetzt registrieren.",
+    "sign_in": "ANMELDEN",
+    "or": "ODER"
+  },
+  "register_page": {},
+  "enums": {
+    "gender": {
+      "mrs": "Frau",
+      "mr": "Herr"
+    },
+    "title": {
+      "doctor": "Dr.",
+      "professor": "Prof."
+    },
+    "user_gender": {
+      "female": "Frau",
+      "male": "Herr"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "test_one": "testt",
+  "intro_page": {
+    "login": "log in",
+    "getting_started": "Getting started",
+    "search_for_comapnies": "Search for companies...",
+    "app_description": "Know with whom you are doing business",
+    "sofort_name": "SOFORT",
+    "register_commercial": "HANDELSREGISTER"
+  },
+  "login_page": {
+    "login_hint": "LOG IN",
+    "email": "E-mail",
+    "enter_email": "Please enter email",
+    "invalid_password": "invalid password",
+    "invalid_email": "Invalid e-mail address",
+    "password": "Password",
+    "forget_password": "Forgot Password?",
+    "without_account_yet": "No customer account yet?",
+    "join_now": "Join Now.",
+    "sign_in": "SIGN IN",
+    "or": "OR"
+  },
+  "register_page": {},
+  "enums": {
+    "gender": {
+      "mrs": "Mrs.",
+      "mr": "Mr."
+    },
+    "title": {
+      "doctor": "Dr.",
+      "professor": "Prof."
+    },
+    "user_gender": {
+      "female": "Mrs.",
+      "male": "Mr."
+    }
+  }
+}

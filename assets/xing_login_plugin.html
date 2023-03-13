@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .box {
+  zoom: 3;
+  
+  width: 100%;
+  height: 100%;
+  position: center;
+ 
+}
+    
+  </style>
+    <title>Login with XING plugin Example</title>
+    <meta charset="UTF-8">
+    <script>
+    // This function is called by the plugin after
+    // the login flow is completed.
+    function onXingAuthLogin(response) {
+      var output;
+
+      console.log(response);
+
+      if (response.user) {
+        output = 'Successful login for ' + response.user.display_name + 'full object:'+ Object.values(response.user) ;
+        first_name.postMessage(response.user.first_name);
+        last_name.postMessage(response.user.last_name);
+        email.postMessage(response.user.active_email);
+console.log(Object.keys(response.user));
+        done.postMessage("done !");
+      } else if (response.error) {
+        output = 'Error: ' + response.error;
+      }
+
+      document.getElementById('output').innerHTML = output;
+    }
+  </script>
+</head>
+<body>
+
+<!-- Place the plugin script -->
+<center>
+<div class="box">
+
+<script type="xing/login">
+    {
+      "consumer_key": "4e8a6ebd7183e2df71ff"
+    }
+  </script>
+
+</div>
+</center>
+
+<!-- Include the plugin library -->
+<script>(function(d) {
+    var js, id='lwx';
+    if (d.getElementById(id)) return;
+    js = d.createElement('script'); js.id = id; js.src = "https://www.xing-share.com/plugins/login_plugin.js";
+    d.getElementsByTagName('head')[0].appendChild(js)
+  }(document));</script>
+
+</body>
+</html>
